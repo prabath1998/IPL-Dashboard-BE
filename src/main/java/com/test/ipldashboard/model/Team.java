@@ -63,11 +63,9 @@ public class Team {
     @Override
     public String toString() {
         return "Team{" +
-                "id=" + id +
-                ", teamName='" + teamName + '\'' +
+                "teamName='" + teamName + '\'' +
                 ", totalMatches=" + totalMatches +
                 ", totalWins=" + totalWins +
-                ", matches=" + matches +
                 '}';
     }
 }
