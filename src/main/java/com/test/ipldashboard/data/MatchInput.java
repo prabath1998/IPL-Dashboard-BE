@@ -1,6 +1,6 @@
 package com.test.ipldashboard.data;
 
-public class MathInput {
+public class MatchInput {
     private String id;
     private String city;
     private String date;
@@ -19,10 +19,10 @@ public class MathInput {
     private String umpire1;
     private String umpire2;
 
-    public MathInput() {
+    public MatchInput() {
     }
 
-    public MathInput(String id, String city, String date, String player_of_match, String venue, String neutral_venue, String team1, String team2, String toss_winner, String toss_decision, String winner, String result, String result_margin, String eliminator, String method, String umpire1, String umpire2) {
+    public MatchInput(String id, String city, String date, String player_of_match, String venue, String neutral_venue, String team1, String team2, String toss_winner, String toss_decision, String winner, String result, String result_margin, String eliminator, String method, String umpire1, String umpire2) {
         this.id = id;
         this.city = city;
         this.date = date;
