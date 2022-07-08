@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import "./App.css";
+import "./App.scss";
 import { TeamPage } from "./pages/TeamPage";
 
 function App() {
