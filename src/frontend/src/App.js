@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.scss";
+import { HomePage } from "./pages/HomePage";
 import { MatchPage } from "./pages/MatchPage";
 import { TeamPage } from "./pages/TeamPage";
 
@@ -14,9 +15,9 @@ function App() {
           <Route path="/teams/:teamName">
             <TeamPage />
           </Route>
-          {/* <Route path="/">
+          <Route path="/">
             <HomePage />
-          </Route> */}
+          </Route>
 
         </Switch>
       </Router>
